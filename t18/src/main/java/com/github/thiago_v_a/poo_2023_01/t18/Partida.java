@@ -21,9 +21,9 @@ public class Partida {
             Lance lance = lances.get(i);
             System.out.println("Lance " + (i + 1) + ":");
             System.out.println("Jogador: " + lance.getJogador().getNome());
-            System.out.println("Peça: " + lance.getPeça().getNome());
-            System.out.println("Posição de origem: " + lance.getPosição().getOrigem());
-            System.out.println("Posição de destino: " + lance.getPosição().getDestino());
+            System.out.println("Peca: " + lance.getPeca().getNome());
+            System.out.println("Posicao de origem: " + lance.getPosicao().getOrigem());
+            System.out.println("Posicao de destino: " + lance.getPosicao().getDestino());
             System.out.println("--------------------");
         }
     }

@@ -1,10 +1,10 @@
 package com.github.thiago_v_a.poo_2023_01.t18;
 
-public class Posição {
+public class Posicao {
     private String origem;
     private String destino;
 
-    public Posição(String origem, String destino) {
+    public Posicao(String origem, String destino) {
         this.origem = origem;
         this.destino = destino;
     }

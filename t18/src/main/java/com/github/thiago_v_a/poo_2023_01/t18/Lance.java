@@ -2,24 +2,24 @@ package com.github.thiago_v_a.poo_2023_01.t18;
 
 public class Lance {
     private Jogador jogador;
-    private Peça peça;
-    private Posição posição;
+    private Peca peca;
+    private Posicao posicao;
 
-    public Lance(Jogador jogador, Peça peça, Posição posição) {
+    public Lance(Jogador jogador, Peca peca, Posicao posicao) {
         this.jogador = jogador;
-        this.peça = peça;
-        this.posição = posição;
+        this.peca = peca;
+        this.posicao = posicao;
     }
 
     public Jogador getJogador() {
         return jogador;
     }
 
-    public Peça getPeça() {
-        return peça;
+    public Peca getPeca() {
+        return peca;
     }
 
-    public Posição getPosição() {
-        return posição;
+    public Posicao getPosicao() {
+        return posicao;
     }
 }
