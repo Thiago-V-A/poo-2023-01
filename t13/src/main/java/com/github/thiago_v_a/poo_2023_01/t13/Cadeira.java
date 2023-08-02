@@ -1,4 +1,4 @@
-package main.java.com.github.thiago_v_a.poo_2023_01.t13;
+package com.github.thiago_v_a.poo_2023_01.t13;
 
 class Main {
     public static void main(String[] args) {
