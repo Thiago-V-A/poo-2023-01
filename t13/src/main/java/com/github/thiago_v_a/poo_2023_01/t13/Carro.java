@@ -1,4 +1,4 @@
-package main.java.com.github.thiago_v_a.poo_2023_01.t13;
+package com.github.thiago_v_a.poo_2023_01.t13;
 import java.util.Scanner;
 
 public class Carro {
