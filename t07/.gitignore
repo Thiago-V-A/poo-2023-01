@@ -1,40 +1,67 @@
-# Visual Code
-.project
-.vscode/
-.classpath
-.settings/
-
-/reports
-/bin
-/target
-target/
+# Arquivos de configuração do IntelliJ IDEA
 .idea/
+
+# Arquivo de configuração do módulo do IntelliJ IDEA
 *.iml
-.metadata/
-RemoteSystemsTempFiles/
-Servers/
-*.log
-*.log*
-nohup.out
-.DS_Store
-*.orig
-tmp.txt
-*.hprof
-tmp.txt
-ca.uhn.fhir.jpa.entity.ResourceIndexedSearchParamString/
-ca.uhn.fhir.jpa.entity.ResourceTable/
 
-# Vagrant stuff.
-.vagrant
-/vagrant/build
-/vagrant/chef/tmp
-jpaserver_derby_files
+# Arquivos de projeto do IntelliJ IDEA
+*.ipr
 
+# Arquivos de workspace do IntelliJ IDEA
+*.iws
 
-# Created by https://www.gitignore.io
+# Arquivos de cache do IntelliJ IDEA
+out/
 
-### Java ###
+# Arquivos de logs do IntelliJ IDEA
+/log/
+
+# Diretório de artefatos e saída de compilação
+target/
+
+# Arquivos de dados de código inspecionados pelo IntelliJ IDEA
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/dictionaries
+
+# Configuração de execução do IntelliJ IDEA
+*.run.xml
+
+# Configurações de cobertura do IntelliJ IDEA
+*.gcno
+*.gcda
+
+# Histórico de mudanças locais do IntelliJ IDEA
+.idea/libraries/
+.idea/modules.xml
+.idea/dynamic.xml
+.idea/caches/
+
+# Configurações de inspeção local do IntelliJ IDEA
+.idea/codeStyles/
+.idea/codeInspection/
+
+# Configurações do plugin de banco de dados do IntelliJ IDEA
+.idea/dataSources/
+
+# Configurações do editor do IntelliJ IDEA
+.idea/editor.xml
+.idea/encodings.xml
+
+# Arquivos de depuração e código inspecionado do IntelliJ IDEA
+*.ipr.*
+
+# Diretório de plugins do IntelliJ IDEA
+.idea/plugins/
+
+# Compiled class file
 *.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -42,107 +69,12 @@ jpaserver_derby_files
 # Package Files #
 *.jar
 *.war
+*.nar
 *.ear
-*.class
+*.zip
+*.tar.gz
+*.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
-
-### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-
-
-### Vim ###
-[._]*.s[a-w][a-z]
-[._]s[a-w][a-z]
-*.un~
-Session.vim
-.netrwhist
-*~
-
-
-### Intellij ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
-
-*.iml
-
-## Directory-based project format:
-.idea/
-# if you remove the above rule, at least ignore the following:
-
-# User-specific stuff:
-.idea/workspace.xml
-
-.idea/dataSources.ids
-.idea/dataSources.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
-
-# Mongo Explorer plugin:
-.idea/mongoSettings.xml
-
-## File-based project format:
-*.ipr
-*.iws
-
-## Plugin-specific files:
-
-# IntelliJ
-/out/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
-
-# JIRA plugin
-atlassian-ide-plugin.xml
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-
-
-### Eclipse ###
-*.pydevproject
-.metadata
-.gradle
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.loadpath
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# CDT-specific
-.cproject
-
-# JDT-specific (Eclipse Java Development Tools)
-#.project
-#.settings/
-#.classpath
-
-# PDT-specific
-.buildpath
-
-# sbteclipse plugin
-.target
-
-# TeXlipse plugin
-.texlipse
+replay_pid*
