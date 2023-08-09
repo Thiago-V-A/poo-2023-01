@@ -2,8 +2,9 @@ package com.github.thiago_v_a.poo_2023_01.t21;
 
 import java.util.Objects;
 
-public class Preco extends Object {
+import java.util.Objects;
 
+public class Preco extends Object {
     private double valor;
     private Moeda moeda;
 
@@ -12,7 +13,7 @@ public class Preco extends Object {
             throw new IllegalArgumentException("valor não pode ser negativo");
         }
 
-        Objects.requireNonNull(moeda, "nao pode ser nulo");
+        Objects.requireNonNull(moeda, "não pode ser nulo");
 
         this.valor = valor;
         this.moeda = moeda;
@@ -38,15 +39,22 @@ public class Preco extends Object {
                 '}';
     }
 
-    public static void main(String[] args) {
-        System.out.println(Preco.reais(10));
-    }
-
     public Preco adiciona(Preco valor) {
         if (moeda != valor.getMoeda()) {
             throw new IllegalArgumentException("não se soma valores de moedas distintas");
         }
 
         return new Preco(valor.getValor() + getValor(), moeda);
+    }
+
+    public static void main(String[] args) {
+        Preco preco1 = Preco.reais(10);
+        Preco preco2 = Preco.reais(20);
+
+        System.out.println(preco1);
+        System.out.println(preco2);
+
+        Preco soma = preco1.adiciona(preco2);
+        System.out.println("Soma: " + soma);
     }
 }

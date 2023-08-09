@@ -7,7 +7,7 @@ public class NotaFiscal {
     private Set<Pedido> contempla;
 
     private Set<Pagamento> pagamentos;
-/*
+
     public Preco total() {
         Preco soma = Preco.reais(0);
         for (Pagamento pagamento : pagamentos) {
@@ -16,5 +16,5 @@ public class NotaFiscal {
 
         return soma;
     }
- */
+
 }
